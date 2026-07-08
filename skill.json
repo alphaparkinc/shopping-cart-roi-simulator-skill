@@ -1,0 +1,45 @@
+{
+  "name": "shopping-cart-roi-simulator-skill",
+  "version": "1.0.0",
+  "description": "Simulates bundling pricing setups inside carts to compute aggregate product margins and post-discount ROI.",
+  "author": "alphaparkinc",
+  "category": "pricing",
+  "tags": [
+    "pricing",
+    "margin",
+    "cart",
+    "bundling",
+    "ROI"
+  ],
+  "inputs": {
+    "cart_items": {
+      "type": "array",
+      "description": "List of: [{price, cost, quantity}]."
+    },
+    "discount_pct": {
+      "type": "number",
+      "description": "Bundling promo discount percentage applied to cart subtotal.",
+      "default": 0.0
+    }
+  },
+  "outputs": {
+    "gross_revenue": {
+      "type": "number",
+      "description": "Post-discount gross revenue in USD."
+    },
+    "total_cost": {
+      "type": "number",
+      "description": "Sum cost of products in USD."
+    },
+    "net_profit": {
+      "type": "number",
+      "description": "Net profit margin amount in USD."
+    },
+    "profit_margin_pct": {
+      "type": "number",
+      "description": "Overall profit margin percentage."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
