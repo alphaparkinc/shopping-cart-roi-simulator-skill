@@ -1,8 +1,8 @@
 {
   "name": "shopping-cart-roi-simulator-skill",
   "version": "1.0.0",
-  "description": "Simulates bundling pricing setups inside carts to compute aggregate product margins and post-discount ROI.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Simulates bundling pricing setups inside carts to compute aggregate product margins and post-discount ROI.",
+  "author": "genpark",
   "category": "pricing",
   "tags": [
     "pricing",
