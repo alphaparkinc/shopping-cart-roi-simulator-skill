@@ -1,4 +1,4 @@
-# shopping-cart-roi-simulator-skill
+# genpark-shopping-cart-roi-simulator-skill
 
 > **GenPark AI Agent Skill** -- Shopping cart deal bundler and margin ROI analyzer.
 
